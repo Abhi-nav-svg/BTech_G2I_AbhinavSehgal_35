@@ -1,0 +1,19 @@
+#include<stdio.h>
+void namaste();
+void bonjour();
+int main()
+{
+    char ch;
+    printf("enter f for french and i for bonjour\n");
+    scanf("%c",&ch);
+    if(ch=='i'){
+        printf("namaste");
+    }
+    else printf("bonjour");
+}
+void namaste(){
+    printf("namaste");
+}
+void bonjour(){
+    printf("bonjour");
+}
